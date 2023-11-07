@@ -87,6 +87,8 @@ class FaceRecognition:
             name = self.known_face_names[best_match_index]
             confidence = face_confidence(face_distances[best_match_index])
           
+          if name == "name of the .png or .jpg what ever":
+            "do what you want here"
           
           self.face_names.append(f"{name.split('.')[0]}|({confidence})")
 
